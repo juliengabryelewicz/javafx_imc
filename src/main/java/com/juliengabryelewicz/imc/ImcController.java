@@ -17,7 +17,7 @@ public class ImcController {
 
     private void showAlertWithoutHeaderText(String imcError) {
         Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle("Attnetion");
+        alert.setTitle("Attention");
 
         // Header Text: null
         alert.setHeaderText(null);
